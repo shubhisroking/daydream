@@ -251,7 +251,7 @@
 		const form = event.target as HTMLFormElement;
 		const emailInput = form.querySelector('input[name="email"]') as HTMLInputElement;
 		const email = emailInput.value;
-		
+
 		// Save email to Airtable first (if configured)
 		try {
 			// const apiKey = import.meta.env.VITE_AIRTABLE_API_KEY;
@@ -496,9 +496,6 @@
 			>
 		</a>
 	</div>
-
-	<!-- <img src="hot-air-balloon.png" alt="" class="absolute w-1/8 right-32 bottom-40 z-20"> -->
-	<!-- <img src="hot-air-balloon.png" alt="" class="absolute w-1/12 left-36 bottom-81 z-20"> -->
 
 	<img src="/clouds-top-middle-bg.svg" alt="" class="absolute left-5/12 -translate-x-1/2 w-7/12 -bottom-24">
 	<div class="absolute left-5/12 -translate-x-1/2 w-7/12 -bottom-24 bg-[url('brushstroking.png')] bg-size-[100vw_100vh] bg-repeat mix-blend-overlay opacity-60 pointer-events-none h-full" style="mask-image: url('/clouds-top-middle-bg.svg'); mask-size: contain; mask-repeat: no-repeat; mask-position: center; -webkit-mask-image: url('/clouds-top-middle-bg.svg'); -webkit-mask-size: contain; -webkit-mask-repeat: no-repeat; -webkit-mask-position: center;"></div>
